@@ -1,0 +1,73 @@
+Sayt haqida:
+~ name - PlayBox
+~ description - bir saytni ozida bir nechta mashhur oyinlar oynash imkoniyati
+
+1.Sayt tuzilishi (UI):
+Bosh sahifa(Home Page):
+~ logo - sayt logotipi
+~ Navigatsiya menyusi - Asosiy,Oyinlar,Boglanish,Haqida
+~ Oyinlar tavsifi - har bir oyin uchun qisqacha tavsif
+
+
+Oyinlar sahifasi (Game Page):
+~ Oyinlar royxati
+
+Boglanish sahifasi (Contact page):
+~ aloqa formasi - foydalanuvchilarni savol va fikrlarini oluvchi muhit
+
+
+Haqida sahifasi (Home Page):
+~  sayt haqida - Saytning maqsadi,ishlab chiquvchilari haqida malumot
+
+
+Oyinlar modeli:
+
+~ Tetris  
+
+1.Raqamli Bloklar (Tetrominoes): Har xil shakldagi bloklar.
+2.O'yin Maydoni (Grid): Bloklar joylashadigan maydon.
+3.O'yin Logikasi: Bloklarni boshqarish, pastga tushirish, aylantirish va to'ldirilgan joyni olib tashlash.
+
+
+
+~ Pong
+
+1.Raketkalar (Paddles): O'yinchilar boshqaradigan elementlar.
+2.To'p (Ball): Harakatlanuvchi element.
+3.O'yin Maydoni (Game Area): To'p va raketkalar harakatlanadigan maydon.
+
+
+
+
+~  Memory game 
+
+1.Kartalar (Cards): Har bir karta o'ziga xos tasvirga ega.
+2.O'yin Logikasi: Kartalarni ochish va ularni yodda saqlash orqali juftliklarni topish.
+
+
+
+~ 2048 
+
+1.Raqamli Bloklar: Birlashib katta raqamlar hosil qiladigan bloklar.
+2.O'yin Maydoni (Grid): Bloklar joylashadigan maydon.
+3.O'yin Logikasi: Bloklarni harakatlantirish, birlashtirish va raqamlarni yig'ish.
+
+
+~ Snake game 
+
+1.Ilon (Snake): Harakatlanuvchi element.
+2.Oziq-ovqat (Food): Ilon yig'adigan elementlar.
+3.O'yin Maydoni (Game Area): Ilon va oziq-ovqat joylashadigan maydon.
+
+
+
+
+
+Dasturlash:
+
+~ Frontend
+1.HTML/CSS - sayt tuzilishi va dizayni uchun
+2.Javascript - oyin logikasi va jonlantirish
+
+~ Backend
+Server: oyin malumotlarini saqlash,id

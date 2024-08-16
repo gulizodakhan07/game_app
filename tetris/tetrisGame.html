@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game JS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url('https://media.giphy.com/media/l1Et7Qw1XjvunS0Io/giphy.gif?cid=ecf05e47xsngg4kxuhqef7o3qr6nnwz4143gce7gbmkaxv4d&ep=v1_gifs_related&rid=giphy.gif&ct=g');
+            height: 80vh;
+            margin: 0;
+            padding: 0;
+            opacity: 90%;
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all 2s ease;
+        }
+        #score {
+            display: inline-block;
+        }
+        div {
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+        }
+        .wrapper {
+            margin-top: 90px;
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+            box-shadow: 2px 2px 100px 2px rgb(216, 203, 203);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <canvas id="tetris" width="300" height="600"></canvas>
+        <div>
+            Score: <div id="score">0</div>
+        </div>
+    </div>
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+</body>
+</html>
